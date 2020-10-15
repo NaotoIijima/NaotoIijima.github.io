@@ -21,35 +21,64 @@ pages:
       createAnchor35: true
       createAnchor70: true
       stimuli:
-          #C1: configs/resources/audio/mono_c1.wav
-          #C2: configs/resources/audio/mono_c2.wav
-          #C3: configs/resources/audio/mono_c3.wav
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav
     - 
           - random
           - type: mushra
             id: trial_random_1
-            name: MUSHRA - Random 2
-            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
+            name: MUSHRA - Random 1
+            content: You can hear clapping.
             enableLooping: true 
-            reference: configs/resources/audio/mono_ref.wav
+            reference: configs/resources/audio/true/clap/signal_90.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
-                C1: configs/resources/audio/mono_c1.wav
-                #C2: configs/resources/audio/mono_c2.wav
-                #C3: configs/resources/audio/mono_c3.wav          
+                C1: configs/resources/audio/dismics/org/clap/signal_90.wav
+                C2: configs/resources/audio/dismics/trans/clap/signal_90.wav
+                C3: configs/resources/audio/singlemic/org/clap/signal_90.wav
+                C4: configs/resources/audio/singlemic/trans/clap/signal_90.wav         
           - type: mushra
             id: trial_random_2
-            name: MUSHRA - Random 1
-            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
+            name: MUSHRA - Random 2
+            content: You can hear clapping.
             enableLooping: true 
-            reference: configs/resources/audio/mono_ref.wav
+            reference: configs/resources/audio/true/clap/signal_0.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
-                C1: configs/resources/audio/mono_c1.wav
-                C2: configs/resources/audio/mono_c2.wav
-                #C3: configs/resources/audio/mono_c3.wav          
+                C1: configs/resources/audio/dismics/org/clap/signal_0.wav
+                C2: configs/resources/audio/dismics/trans/clap/signal_0.wav
+                C3: configs/resources/audio/singlemic/org/clap/signal_0.wav
+                C4: configs/resources/audio/singlemic/trans/clap/signal_0.wav    
+          - type: mushra
+            id: trial_random_3
+            name: MUSHRA - Random 3
+            content: You can hear male sound.
+            enableLooping: true 
+            reference: configs/resources/audio/true/male/signal_0.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/resources/audio/dismics/org/male/signal_0.wav
+                C2: configs/resources/audio/dismics/trans/male/signal_0.wav
+                C3: configs/resources/audio/singlemic/org/male/signal_0.wav
+                C4: configs/resources/audio/singlemic/trans/male/signal_0.wav       
+          - type: mushra
+            id: trial_random_4
+            name: MUSHRA - Random 4
+            content: You can hear male sound.
+            enableLooping: true 
+            reference: configs/resources/audio/true/male/signal_-90.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/resources/audio/dismics/org/male/signal_-90.wav
+                C2: configs/resources/audio/dismics/trans/male/signal_-90.wav
+                C3: configs/resources/audio/singlemic/org/male/signal_-90.wav
+                C4: configs/resources/audio/singlemic/trans/male/signal_-90.wav       
+
     - type: finish
       name: Thank you
       content: Thank you for attending!
