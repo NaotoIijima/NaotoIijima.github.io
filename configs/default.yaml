@@ -14,7 +14,7 @@ pages:
     - type: mushra
       id: trial1
       name: MUSHRA
-      content: This training shows how to use our user interface. Please perform the underlined instructions to proceed with the training session. Reminder: In a MUSHRA listening test you are asked to rate the Basic Audio Quality (BAQ) of each condition.<br/>Basic Audio Quality is a single and global attribute that is used to judge any and all detected differences between the reference and the condition.
+      content: このページは評価のやり方を練習するサンプルです。referenceと聞き比べて音源方向及び音質に関して近さを0~100で評価してください．またサンプルの中にはreferenceも含まれています．
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/mono_ref.wav
@@ -28,13 +28,12 @@ pages:
         
         - type: mushra
           id: trial_random_1
-          name: MUSHRA - Random 1
+          name: 実験1
           content: You can hear clapping.
           enableLooping: true 
           reference: configs/resources/audio/true/clap/signal_90.wav
           createAnchor35: false
           createAnchor70: false
-          randomize: false
           stimuli:
               C1: configs/resources/audio/dismics/org/clap/signal_90.wav
               C2: configs/resources/audio/dismics/trans/clap/signal_90.wav
@@ -48,7 +47,6 @@ pages:
           reference: configs/resources/audio/true/clap/signal_0.wav
           createAnchor35: false
           createAnchor70: false
-          randomize: false
           stimuli:
               C1: configs/resources/audio/dismics/org/clap/signal_0.wav
               C2: configs/resources/audio/dismics/trans/clap/signal_0.wav
@@ -62,7 +60,6 @@ pages:
           reference: configs/resources/audio/true/male/signal_0.wav
           createAnchor35: false
           createAnchor70: false
-          randomize: false
           stimuli:
               C1: configs/resources/audio/dismics/org/male/signal_0.wav
               C2: configs/resources/audio/dismics/trans/male/signal_0.wav
@@ -76,7 +73,6 @@ pages:
           reference: configs/resources/audio/true/male/signal_-90.wav
           createAnchor35: false
           createAnchor70: false
-          randomize: false
           stimuli:
               C1: configs/resources/audio/dismics/org/male/signal_-90.wav
               C2: configs/resources/audio/dismics/trans/male/signal_-90.wav
