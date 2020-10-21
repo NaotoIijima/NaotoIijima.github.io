@@ -9,7 +9,7 @@ remoteService: service/write.php
 pages:
     - type: generic
       id: first_page
-      name: Welcome
+      name: 練習ページ
       content: 本実験では音源方向及び音質のreferenceとの近さを0~100で評価してください．<br>回答は最後に結果の表が出るのでその数値を<a href="https://docs.google.com/forms/d/e/1FAIpQLSefiPM0XE5z7EWudDfDbAqUDLPHz5BWj-L1PSPoESt2UOAxGQ/viewform?usp=sf_link">Googleフォーム</a>に書き写す形でお願いいたします．</p>      
     - type: mushra
       id: trial1
@@ -31,53 +31,53 @@ pages:
           name: 実験1
           content: You can hear clapping.
           enableLooping: true 
-          reference: configs/resources/audio/true/clap/signal_90.wav
+          reference: configs/resources/audio/true/clap/signal_all_left.wav
           createAnchor35: false
           createAnchor70: false
           stimuli:
-              C1: configs/resources/audio/dismics/org/clap/signal_90.wav
-              C2: configs/resources/audio/dismics/trans/clap/signal_90.wav
-              C3: configs/resources/audio/singlemic/org/clap/signal_90.wav
-              C4: configs/resources/audio/singlemic/trans/clap/signal_90.wav         
+              C1: configs/resources/audio/dismics/org/clap/signal_all_left.wav
+              C2: configs/resources/audio/dismics/trans/clap/signal_all_left.wav
+              C3: configs/resources/audio/singlemic/org/clap/signal_all_left.wav
+              C4: configs/resources/audio/singlemic/trans/clap/signal_all_left.wav         
         - type: mushra
           id: trial_random_2
-          name: MUSHRA - Random 2
+          name: 実験2
           content: You can hear clapping.
           enableLooping: true 
-          reference: configs/resources/audio/true/clap/signal_0.wav
+          reference: configs/resources/audio/true/guitar/signal_all_right.wav
           createAnchor35: false
           createAnchor70: false
           stimuli:
-              C1: configs/resources/audio/dismics/org/clap/signal_0.wav
-              C2: configs/resources/audio/dismics/trans/clap/signal_0.wav
-              C3: configs/resources/audio/singlemic/org/clap/signal_0.wav
-              C4: configs/resources/audio/singlemic/trans/clap/signal_0.wav    
+              C1: configs/resources/audio/dismics/org/guitar/signal_all_right.wav
+              C2: configs/resources/audio/dismics/trans/guitar/signal_all_right.wav
+              C3: configs/resources/audio/singlemic/org/guitar/signal_all_right.wav
+              C4: configs/resources/audio/singlemic/trans/guitar/signal_all_right.wav    
         - type: mushra
           id: trial_random_3
-          name: MUSHRA - Random 3
+          name: 実験3
           content: You can hear male sound.
           enableLooping: true 
-          reference: configs/resources/audio/true/male/signal_0.wav
+          reference: configs/resources/audio/true/male/signal_all_left.wav
           createAnchor35: false
           createAnchor70: false
           stimuli:
-              C1: configs/resources/audio/dismics/org/male/signal_0.wav
-              C2: configs/resources/audio/dismics/trans/male/signal_0.wav
-              C3: configs/resources/audio/singlemic/org/male/signal_0.wav
-              C4: configs/resources/audio/singlemic/trans/male/signal_0.wav       
+              C1: configs/resources/audio/dismics/org/male/signal_all_left.wav
+              C2: configs/resources/audio/dismics/trans/male/signal_all_left.wav
+              C3: configs/resources/audio/singlemic/org/male/signal_all_left.wav
+              C4: configs/resources/audio/singlemic/trans/male/signal_all_left.wav       
         - type: mushra
           id: trial_random_4
-          name: MUSHRA - Random 4
+          name: 実験4
           content: You can hear male sound.
           enableLooping: true 
-          reference: configs/resources/audio/true/male/signal_-90.wav
+          reference: configs/resources/audio/true/pink/signal_all_right.wav
           createAnchor35: false
           createAnchor70: false
           stimuli:
-              C1: configs/resources/audio/dismics/org/male/signal_-90.wav
-              C2: configs/resources/audio/dismics/trans/male/signal_-90.wav
-              C3: configs/resources/audio/singlemic/org/male/signal_-90.wav
-              C4: configs/resources/audio/singlemic/trans/male/signal_-90.wav       
+              C1: configs/resources/audio/dismics/org/pink/signal_all_right.wav
+              C2: configs/resources/audio/dismics/trans/pink/signal_all_right.wav
+              C3: configs/resources/audio/singlemic/org/pink/signal_all_right.wav
+              C4: configs/resources/audio/singlemic/trans/pink/signal_all_right.wav       
     - type: finish
       name: Thank you
       content: ボタンを押して結果を表示してください．
