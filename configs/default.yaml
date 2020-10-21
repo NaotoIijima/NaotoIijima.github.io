@@ -81,6 +81,6 @@ pages:
     - type: finish
       name: Thank you
       content: ボタンを押して結果を表示してください．
-      popupcontent: 結果をグーグルフォームに入力してください．    
+      popupcontent: 結果を<a href="https://docs.google.com/forms/d/e/1FAIpQLSefiPM0XE5z7EWudDfDbAqUDLPHz5BWj-L1PSPoESt2UOAxGQ/viewform?usp=sf_link">Googleフォーム</a>に入力してください．    
       showResults: true
       writeResults: true
