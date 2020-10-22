@@ -14,7 +14,7 @@ pages:
     - type: mushra
       id: trial1
       name: MUSHRA
-      content: このページは評価のやり方を練習するサンプルです。referenceと聞き比べて音源方向及び音質に関して近さを0~100で評価してください．またサンプルの中にはreferenceも含まれています．
+      content: このページは評価のやり方を練習するサンプルです。referenceと聞き比べて音質に関して近さを0~100で評価してください．またサンプルの中にはreferenceも含まれています．
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/mono_ref.wav
@@ -27,22 +27,37 @@ pages:
     - 
         
         - type: mushra
-          id: trial_random_1
+          id: 実験1
           name: 実験1
-          content: You can hear clapping.
+          content: 左側からギター音が聞こえます．音質に関して評価してください。
           enableLooping: true 
-          reference: configs/resources/audio/true/clap/signal_all_left.wav
+          reference: configs/resources/audio/true/guitar/signal_all_left.wav
           createAnchor35: false
           createAnchor70: false
           stimuli:
-              C1: configs/resources/audio/dismics/org/clap/signal_all_left.wav
-              C2: configs/resources/audio/dismics/trans/clap/signal_all_left.wav
-              C3: configs/resources/audio/singlemic/org/clap/signal_all_left.wav
-              C4: configs/resources/audio/singlemic/trans/clap/signal_all_left.wav         
+              C1: configs/resources/audio/dismics/org/guitar/signal_all_left.wav
+              C2: configs/resources/audio/dismics/trans/guitar/signal_all_left.wav
+              C3: configs/resources/audio/singlemic/org/guitar/signal_all_left.wav
+              C4: configs/resources/audio/singlemic/trans/guitar/signal_all_left.wav    
+              C5: configs/resources/audio/anchor/guitar/signal_all_left.wav
         - type: mushra
-          id: trial_random_2
+          id: 実験2
           name: 実験2
-          content: You can hear clapping.
+          content: 左側からギター音が聞こえます．音の定位感に関して評価してください。
+          enableLooping: true 
+          reference: configs/resources/audio/true/guitar/signal_all_left.wav
+          createAnchor35: false
+          createAnchor70: false
+          stimuli:
+              C1: configs/resources/audio/dismics/org/guitar/signal_all_left.wav
+              C2: configs/resources/audio/dismics/trans/guitar/signal_all_left.wav
+              C3: configs/resources/audio/singlemic/org/guitar/signal_all_left.wav
+              C4: configs/resources/audio/singlemic/trans/guitar/signal_all_left.wav   
+              C5: configs/resources/audio/anchor/guitar/signal_all_left.wav 
+        - type: mushra
+          id: 実験3
+          name: 実験3
+          content: 右側からギター音が聞こえます．音質に関して評価してください。
           enableLooping: true 
           reference: configs/resources/audio/true/guitar/signal_all_right.wav
           createAnchor35: false
@@ -52,10 +67,25 @@ pages:
               C2: configs/resources/audio/dismics/trans/guitar/signal_all_right.wav
               C3: configs/resources/audio/singlemic/org/guitar/signal_all_right.wav
               C4: configs/resources/audio/singlemic/trans/guitar/signal_all_right.wav    
+              C5: configs/resources/audio/anchor/guitar/signal_all_right.wav
         - type: mushra
-          id: trial_random_3
-          name: 実験3
-          content: You can hear male sound.
+          id: 実験4
+          name: 実験4
+          content: 右側からギター音が聞こえます．音の定位感に関して評価してください。
+          enableLooping: true 
+          reference: configs/resources/audio/true/guitar/signal_all_right.wav
+          createAnchor35: false
+          createAnchor70: false
+          stimuli:
+              C1: configs/resources/audio/dismics/org/guitar/signal_all_right.wav
+              C2: configs/resources/audio/dismics/trans/guitar/signal_all_right.wav
+              C3: configs/resources/audio/singlemic/org/guitar/signal_all_right.wav
+              C4: configs/resources/audio/singlemic/trans/guitar/signal_all_right.wav   
+              C5: configs/resources/audio/anchor/guitar/signal_all_right.wav   
+        - type: mushra
+          id: 実験5
+          name: 実験5
+          content: 左側から音声が聞こえます．音質に関して評価してください。
           enableLooping: true 
           reference: configs/resources/audio/true/male/signal_all_left.wav
           createAnchor35: false
@@ -64,23 +94,54 @@ pages:
               C1: configs/resources/audio/dismics/org/male/signal_all_left.wav
               C2: configs/resources/audio/dismics/trans/male/signal_all_left.wav
               C3: configs/resources/audio/singlemic/org/male/signal_all_left.wav
-              C4: configs/resources/audio/singlemic/trans/male/signal_all_left.wav       
+              C4: configs/resources/audio/singlemic/trans/male/signal_all_left.wav   
+              C5: configs/resources/audio/anchor/male/signal_all_left.wav       
         - type: mushra
-          id: trial_random_4
-          name: 実験4
-          content: You can hear male sound.
+          id: 実験6
+          name: 実験6
+          content: 左側から音声が聞こえます．音の定位感に関して評価してください。
           enableLooping: true 
-          reference: configs/resources/audio/true/pink/signal_all_right.wav
+          reference: configs/resources/audio/true/male/signal_all_left.wav
           createAnchor35: false
           createAnchor70: false
           stimuli:
-              C1: configs/resources/audio/dismics/org/pink/signal_all_right.wav
-              C2: configs/resources/audio/dismics/trans/pink/signal_all_right.wav
-              C3: configs/resources/audio/singlemic/org/pink/signal_all_right.wav
-              C4: configs/resources/audio/singlemic/trans/pink/signal_all_right.wav       
+              C1: configs/resources/audio/dismics/org/male/signal_all_left.wav
+              C2: configs/resources/audio/dismics/trans/male/signal_all_left.wav
+              C3: configs/resources/audio/singlemic/org/male/signal_all_left.wav
+              C4: configs/resources/audio/singlemic/trans/male/signal_all_left.wav   
+              C5: configs/resources/audio/anchor/male/signal_all_left.wav       
+        - type: mushra
+          id: 実験7
+          name: 実験7
+          content: 右側から音声が聞こえます．音質に関して評価してください。
+          enableLooping: true 
+          reference: configs/resources/audio/true/male/signal_all_left.wav
+          createAnchor35: false
+          createAnchor70: false
+          stimuli:
+              C1: configs/resources/audio/dismics/org/male/signal_all_right.wav
+              C2: configs/resources/audio/dismics/trans/male/signal_all_right.wav
+              C3: configs/resources/audio/singlemic/org/male/signal_all_right.wav
+              C4: configs/resources/audio/singlemic/trans/male/signal_all_right.wav   
+              C5: configs/resources/audio/anchor/male/signal_all_right.wav       
+        - type: mushra
+          id: 実験8
+          name: 実験8
+          content: 右側から音声が聞こえます．音の定位感に関して評価してください。
+          enableLooping: true 
+          reference: configs/resources/audio/true/male/signal_all_right.wav
+          createAnchor35: false
+          createAnchor70: false
+          stimuli:
+              C1: configs/resources/audio/dismics/org/male/signal_all_right.wav
+              C2: configs/resources/audio/dismics/trans/male/signal_all_right.wav
+              C3: configs/resources/audio/singlemic/org/male/signal_all_right.wav
+              C4: configs/resources/audio/singlemic/trans/male/signal_all_right.wav   
+              C5: configs/resources/audio/anchor/male/signal_all_right.wav       
+
     - type: finish
-      name: Thank you
-      content: ボタンを押して結果を表示してください．
+      name: ボタンを押して結果を表示してください．
+      content: 結果を<a href="https://docs.google.com/forms/d/e/1FAIpQLSefiPM0XE5z7EWudDfDbAqUDLPHz5BWj-L1PSPoESt2UOAxGQ/viewform?usp=sf_link">Googleフォーム</a>に入力してください．
       popupcontent: 結果を<a href="https://docs.google.com/forms/d/e/1FAIpQLSefiPM0XE5z7EWudDfDbAqUDLPHz5BWj-L1PSPoESt2UOAxGQ/viewform?usp=sf_link">Googleフォーム</a>に入力してください．    
       showResults: true
       writeResults: true
