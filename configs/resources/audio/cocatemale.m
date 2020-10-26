@@ -25,6 +25,6 @@ all_sig_left=[s1(1:120000,:);zeros(2000,2);s2(1:120000,:);zeros(2000,2);s3(1:120
 all_sig_right=[s4(1:120000,:);zeros(2000,2);s5(1:120000,:);zeros(2000,2);s6(1:120000,:)];
 all_sig_mid=[s1(1:120000,:);zeros(2000,2);s7(1:120000,:);zeros(2000,2);s4(1:120000,:)];
 %%
-%audiowrite('signal_all_left.wav',all_sig_left,48000);
-%audiowrite('signal_all_right.wav',all_sig_right,48000);
+audiowrite('signal_all_left.wav',all_sig_left,48000);
+audiowrite('signal_all_right.wav',all_sig_right,48000);
 audiowrite('signal_all_mid.wav',all_sig_mid,48000);
