@@ -29,7 +29,7 @@ pages:
         - type: mushra
           id: 実験1
           name: 実験1
-          content: 左側付近からギター音が聞こえます(移動します)．referenceと比較して近い音かを評価してください．
+          content: 左側付近からギター音が聞こえます(移動します)．referenceと比較して音像位置や音質が近いかなどを評価してください．
           enableLooping: true 
           reference: configs/resources/audio/true/guitar/signal_all_left.wav
           createAnchor35: false
@@ -43,7 +43,7 @@ pages:
         - type: mushra
           id: 実験2
           name: 実験2
-          content: 前方(左、前、右)付近からギター音が聞こえます(移動します)．referenceと比較して近い音かを評価してください．
+          content: 前方(左、前、右)付近からギター音が聞こえます(移動します)．referenceと比較して音像位置や音質が近いかなどを評価してください．
           enableLooping: true 
           reference: configs/resources/audio/true/guitar/signal_all_mid.wav
           createAnchor35: false
@@ -57,7 +57,7 @@ pages:
         - type: mushra
           id: 実験3
           name: 実験3
-          content: 右側付近からギター音が聞こえます(移動します)．referenceと比較して近い音かを評価してください．
+          content: 右側付近からギター音が聞こえます(移動します)．referenceと比較して音像位置や音質が近いかなどを評価してください．
           enableLooping: true 
           reference: configs/resources/audio/true/guitar/signal_all_right.wav
           createAnchor35: false
@@ -71,7 +71,7 @@ pages:
         - type: mushra
           id: 実験4
           name: 実験4
-          content: 左側付近から音声が聞こえます(移動します)．referenceと比較して近い音かを評価してください．
+          content: 左側付近から音声が聞こえます(移動します)．referenceと比較して音像位置や音質が近いかなどを評価してください．
           enableLooping: true 
           reference: configs/resources/audio/true/male/signal_all_left.wav
           createAnchor35: false
@@ -85,7 +85,7 @@ pages:
         - type: mushra
           id: 実験5
           name: 実験5
-          content: 前方(左、前、右)付近から音声が聞こえます(移動します)．referenceと比較して近い音かを評価してください．
+          content: 前方(左、前、右)付近から音声が聞こえます(移動します)．referenceと比較して音像位置や音質が近いかなどを評価してください．
           enableLooping: true 
           reference: configs/resources/audio/true/male/signal_all_mid.wav
           createAnchor35: false
@@ -99,7 +99,7 @@ pages:
         - type: mushra
           id: 実験6
           name: 実験6
-          content: 右側付近から音声が聞こえます(移動します)．referenceと比較して近い音かを評価してください．
+          content: 右側付近から音声が聞こえます(移動します)．referenceと比較して音像位置や音質が近いかなどを評価してください．
           enableLooping: true 
           reference: configs/resources/audio/true/male/signal_all_right.wav
           createAnchor35: false
