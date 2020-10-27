@@ -14,7 +14,7 @@ pages:
     - type: mushra
       id: trial1
       name: MUSHRA
-      content: このページは評価のやり方を練習するサンプルです．referenceと聞き比べて音の近さを0~100で評価してください．またサンプルの中にはreferenceも含まれています．
+      content: このページは評価のやり方を練習するサンプルです．referenceと聞き比べて音の音質や音像位置を0~100で評価してください．またサンプルの中にはreferenceも含まれています．
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/mono_ref.wav
