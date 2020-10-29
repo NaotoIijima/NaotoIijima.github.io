@@ -10,7 +10,7 @@ pages:
     - type: generic
       id: first_page
       name: 練習ページ
-      content: 本実験では音源方向及び音質のreferenceとの近さを0~100で評価してください．詳しい内容はサンプルのページに記述してあるのでよく読んでから評価をお願いいたします．<br>回答は最後に結果の表が出るのでその数値を<a href="https://docs.google.com/forms/d/e/1FAIpQLSefiPM0XE5z7EWudDfDbAqUDLPHz5BWj-L1PSPoESt2UOAxGQ/viewform?usp=sf_link">Googleフォーム</a>に書き写す形でお願いいたします．</p>      
+      content: 本実験では音源方向及び音質のreferenceとの近さを0~100で評価してください．詳しい内容はサンプルのページに記述してあるのでよく読んでから評価をお願いいたします．      
     - type: mushra
       id: trial1
       name: MUSHRA
@@ -112,8 +112,28 @@ pages:
               C5: configs/resources/audio/anchor_1.6/male/signal_all_right.wav       
 
     - type: finish
-      name: ボタンを押して結果を表示してください．
-      content: 結果を<a href="https://docs.google.com/forms/d/e/1FAIpQLSefiPM0XE5z7EWudDfDbAqUDLPHz5BWj-L1PSPoESt2UOAxGQ/viewform?usp=sf_link">Googleフォーム</a>に入力してください．
-      popupcontent: 結果を<a href="https://docs.google.com/forms/d/e/1FAIpQLSefiPM0XE5z7EWudDfDbAqUDLPHz5BWj-L1PSPoESt2UOAxGQ/viewform?usp=sf_link">Googleフォーム</a>に入力してください．    
+      name: Thank you
+      content: Thank you for attending!
       showResults: true
       writeResults: true
+      questionnaire:
+          - type: text
+            label: name
+            name: name
+          - type: number
+            label: Age
+            name: age
+            min: 0
+            max: 100
+            default: 30
+          - type: likert
+            name: gender
+            label: Gender
+            response:
+             - value: female
+               label: Female
+             - value: male
+               label: Male
+             - value: other
+               label: Other
+      
