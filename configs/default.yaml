@@ -27,8 +27,8 @@ pages:
     - 
         
         - type: mushra
-          id: 実験1
-          name: 実験1
+          id: Experiment 1
+          name: Experiment 1
           content: 左側付近からギター音が聞こえます(移動します)．referenceと比較して音像位置や音質が近いかなどを評価してください．一番良いものは100点をつけ、一番悪いと思うものは40点以下の点をつけてください．またなるべく同じ点数はつけないようにしてください．(差がないと感じたら同点で構いません)．
           enableLooping: true 
           reference: configs/resources/audio/true/guitar/signal_all_left.wav
@@ -41,8 +41,8 @@ pages:
               C4: configs/resources/audio/singlemic/trans/guitar/signal_all_left.wav    
               C5: configs/resources/audio/anchor_1.6/guitar/signal_all_left.wav
         - type: mushra
-          id: 実験2
-          name: 実験2
+          id: Experiment 2
+          name: Experiment 2
           content: 前方(左、前、右)付近からギター音が聞こえます(移動します)．referenceと比較して音像位置や音質が近いかなどを評価してください．一番良いものは100点をつけ、一番悪いと思うものは40点以下の点をつけてください．またなるべく同じ点数はつけないようにしてください．(差がないと感じたら同点で構いません)．
           enableLooping: true 
           reference: configs/resources/audio/true/guitar/signal_all_mid.wav
@@ -55,8 +55,8 @@ pages:
               C4: configs/resources/audio/singlemic/trans/guitar/signal_all_mid.wav   
               C5: configs/resources/audio/anchor_1.6/guitar/signal_all_mid.wav 
         - type: mushra
-          id: 実験3
-          name: 実験3
+          id: Experiment 3
+          name: Experiment 3
           content: 右側付近からギター音が聞こえます(移動します)．referenceと比較して音像位置や音質が近いかなどを評価してください．一番良いものは100点をつけ、一番悪いと思うものは40点以下の点をつけてください．またなるべく同じ点数はつけないようにしてください．(差がないと感じたら同点で構いません)．
           enableLooping: true 
           reference: configs/resources/audio/true/guitar/signal_all_right.wav
@@ -69,8 +69,8 @@ pages:
               C4: configs/resources/audio/singlemic/trans/guitar/signal_all_right.wav    
               C5: configs/resources/audio/anchor_1.6/guitar/signal_all_right.wav
         - type: mushra
-          id: 実験4
-          name: 実験4
+          id: Experiment 4
+          name: Experiment 4
           content: 左側付近から音声が聞こえます(移動します)．referenceと比較して音像位置や音質が近いかなどを評価してください．一番良いものは100点をつけ、一番悪いと思うものは40点以下の点をつけてください．またなるべく同じ点数はつけないようにしてください．(差がないと感じたら同点で構いません)．
           enableLooping: true 
           reference: configs/resources/audio/true/male/signal_all_left.wav
@@ -83,8 +83,8 @@ pages:
               C4: configs/resources/audio/singlemic/trans/male/signal_all_left.wav   
               C5: configs/resources/audio/anchor_1.6/male/signal_all_left.wav       
         - type: mushra
-          id: 実験5
-          name: 実験5
+          id: Experiment 5
+          name: Experiment 5
           content: 前方(左、前、右)付近から音声が聞こえます(移動します)．referenceと比較して音像位置や音質が近いかなどを評価してください．一番良いものは100点をつけ、一番悪いと思うものは40点以下の点をつけてください．またなるべく同じ点数はつけないようにしてください．(差がないと感じたら同点で構いません)．
           enableLooping: true 
           reference: configs/resources/audio/true/male/signal_all_mid.wav
@@ -97,8 +97,8 @@ pages:
               C4: configs/resources/audio/singlemic/trans/male/signal_all_mid.wav   
               C5: configs/resources/audio/anchor_1.6/male/signal_all_mid.wav       
         - type: mushra
-          id: 実験6
-          name: 実験6
+          id: Experiment 6
+          name: Experiment 6
           content: 右側付近から音声が聞こえます(移動します)．referenceと比較して音像位置や音質が近いかなどを評価してください．一番良いものは100点をつけ、一番悪いと思うものは40点以下の点をつけてください．またなるべく同じ点数はつけないようにしてください．(差がないと感じたら同点で構いません)．
           enableLooping: true 
           reference: configs/resources/audio/true/male/signal_all_right.wav
@@ -118,7 +118,7 @@ pages:
       writeResults: true
       questionnaire:
           - type: text
-            label: name
+            label: name(English)
             name: name
           - type: number
             label: Age
