@@ -110,7 +110,48 @@ pages:
               C3: configs/resources/audio/singlemic/org/male/signal_all_right.wav
               C4: configs/resources/audio/singlemic/trans/male/signal_all_right.wav   
               C5: configs/resources/audio/anchor_1.6/male/signal_all_right.wav       
-
+        - type: mushra
+          id: Experiment 7
+          name: Experiment 7
+          content: 左側付近から音声が聞こえます(移動します)．referenceと比較して音像位置や音質が近いかなどを評価してください．一番良いものは100点をつけ、一番悪いと思うものは40点以下の点をつけてください．またなるべく同じ点数はつけないようにしてください．(差がないと感じたら同点で構いません)．
+          enableLooping: true 
+          reference: configs/resources/audio/true/female/signal_all_left.wav
+          createAnchor35: false
+          createAnchor70: false
+          stimuli:
+              C1: configs/resources/audio/dismics/org/female/signal_all_left.wav
+              C2: configs/resources/audio/dismics/trans/female/signal_all_left.wav
+              C3: configs/resources/audio/singlemic/org/female/signal_all_left.wav
+              C4: configs/resources/audio/singlemic/trans/female/signal_all_left.wav   
+              C5: configs/resources/audio/anchor_1.6/female/signal_all_left.wav       
+        - type: mushra
+          id: Experiment 8
+          name: Experiment 8
+          content: 前方(左、前、右)付近から音声が聞こえます(移動します)．referenceと比較して音像位置や音質が近いかなどを評価してください．一番良いものは100点をつけ、一番悪いと思うものは40点以下の点をつけてください．またなるべく同じ点数はつけないようにしてください．(差がないと感じたら同点で構いません)．
+          enableLooping: true 
+          reference: configs/resources/audio/true/female/signal_all_mid.wav
+          createAnchor35: false
+          createAnchor70: false
+          stimuli:
+              C1: configs/resources/audio/dismics/org/female/signal_all_mid.wav
+              C2: configs/resources/audio/dismics/trans/female/signal_all_mid.wav
+              C3: configs/resources/audio/singlemic/org/female/signal_all_mid.wav
+              C4: configs/resources/audio/singlemic/trans/female/signal_all_mid.wav   
+              C5: configs/resources/audio/anchor_1.6/female/signal_all_mid.wav       
+        - type: mushra
+          id: Experiment 9
+          name: Experiment 9
+          content: 右側付近から音声が聞こえます(移動します)．referenceと比較して音像位置や音質が近いかなどを評価してください．一番良いものは100点をつけ、一番悪いと思うものは40点以下の点をつけてください．またなるべく同じ点数はつけないようにしてください．(差がないと感じたら同点で構いません)．
+          enableLooping: true 
+          reference: configs/resources/audio/true/female/signal_all_right.wav
+          createAnchor35: false
+          createAnchor70: false
+          stimuli:
+              C1: configs/resources/audio/dismics/org/female/signal_all_right.wav
+              C2: configs/resources/audio/dismics/trans/female/signal_all_right.wav
+              C3: configs/resources/audio/singlemic/org/female/signal_all_right.wav
+              C4: configs/resources/audio/singlemic/trans/female/signal_all_right.wav   
+              C5: configs/resources/audio/anchor_1.6/female/signal_all_right.wav     
     - type: finish
       name: Thank you
       content: Thank you for attending!
